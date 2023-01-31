@@ -1,6 +1,6 @@
 from typing import List
 from nornir.core.task import Result, Task
-from connections import CONNECTION_NAME
+from nornir_junos.connections import CONNECTION_NAME
 from .report import add_to_report
 from lxml import etree
 import logging

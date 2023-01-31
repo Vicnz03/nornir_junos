@@ -1,6 +1,6 @@
 from typing import List
 from nornir.core.task import Result, Task
-from connections import CONNECTION_NAME
+from nornir_junos.connections import CONNECTION_NAME
 from lxml import etree
 from collections import OrderedDict
 import re

@@ -1,5 +1,5 @@
 from nornir.core.task import Result, Task
-from connections import CONNECTION_NAME
+from nornir_junos.connections import CONNECTION_NAME
 import logging
 from .report import add_to_report
 
